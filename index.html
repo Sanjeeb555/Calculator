@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculatorcontainer">
+        <div class="parentdisplay">
+          <div class="display">
+            <div class="text"></div>
+            <button onclick="deleteLast()">⌫</button>
+          </div>
+        </div>
+        <div class="buttoncontainer">
+          <button class="btn" onclick="fetchButton(event)">1</button>
+          <button class="btn" onclick="fetchButton(event)">2</button>
+          <button class="btn" onclick="fetchButton(event)">3</button>
+          <button class="btn" onclick="fetchButton(event)">+</button>
+
+          <button class="btn" onclick="fetchButton(event)">4</button>
+          <button class="btn" onclick="fetchButton(event)">5</button>
+          <button class="btn" onclick="fetchButton(event)">6</button>
+          <button class="btn" onclick="fetchButton(event)">-</button>
+
+          <button class="btn" onclick="fetchButton(event)">7</button>
+          <button class="btn" onclick="fetchButton(event)">8</button>
+          <button class="btn" onclick="fetchButton(event)">9</button>
+          <button class="btn" onclick="fetchButton(event)">*</button>
+
+          <button class="btn" onclick="fetchButton(event)">0</button>
+          <button class="btn" onclick="fetchButton(event)">AC</button>
+          <button class="btn" onclick="fetchButton(event)">=</button>
+          <button class="btn" onclick="fetchButton(event)">/</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
